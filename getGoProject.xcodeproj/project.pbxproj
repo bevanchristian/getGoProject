@@ -61,7 +61,7 @@
 		50F198702860B5DB00158C77 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		50F198722860B63500158C77 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		50F198742860B64F00158C77 /* UrlConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UrlConstant.swift; path = "../New Group/UrlConstant.swift"; sourceTree = "<group>"; };
-		50F198792860B70600158C77 /* RequestUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RequestUtil.swift; path = getGoProject/service/RequestUtil.swift; sourceTree = SOURCE_ROOT; };
+		50F198792860B70600158C77 /* RequestUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RequestUtil.swift; path = getGoProject/Util/RequestUtil.swift; sourceTree = SOURCE_ROOT; };
 		50F1987B2860B74500158C77 /* ErrorConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorConstant.swift; sourceTree = "<group>"; };
 		50F1987D2860B83D00158C77 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		50F198802860C0FC00158C77 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -97,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		506DECBF2864781100E668A7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				50F198792860B70600158C77 /* RequestUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		50F198312860B41A00158C77 = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +128,7 @@
 		50F1983C2860B41A00158C77 /* getGoProject */ = {
 			isa = PBXGroup;
 			children = (
-				50F198782860B6F700158C77 /* Utils */,
+				506DECBF2864781100E668A7 /* Util */,
 				50F1986F2860B58300158C77 /* viewModel */,
 				50F1986E2860B57C00158C77 /* service */,
 				50F1986D2860B57300158C77 /* model */,
@@ -201,14 +209,6 @@
 				50F1987D2860B83D00158C77 /* HomeViewModel.swift */,
 			);
 			path = viewModel;
-			sourceTree = "<group>";
-		};
-		50F198782860B6F700158C77 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				50F198792860B70600158C77 /* RequestUtil.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		50F1987F2860B90A00158C77 /* constant */ = {
