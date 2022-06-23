@@ -13,3 +13,6 @@ This app uses endpoints from :https://rickandmortyapi.com/documentation/#get-all
 and use an external library in the form of kingfisher for the image download process
 
 
+Apps Diagram:
+
+<img width="703" alt="Screen Shot 2022-06-23 at 17 23 35" src="https://user-images.githubusercontent.com/50088801/175277850-66fdb9fc-f7d3-4824-ae1b-1e3ca184219b.png">
