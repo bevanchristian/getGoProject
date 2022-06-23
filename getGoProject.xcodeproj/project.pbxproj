@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		50F1983E2860B41A00158C77 /* getGoProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F1983D2860B41A00158C77 /* getGoProjectApp.swift */; };
-		50F198402860B41A00158C77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F1983F2860B41A00158C77 /* ContentView.swift */; };
+		50F198402860B41A00158C77 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F1983F2860B41A00158C77 /* HomepageView.swift */; };
 		50F198422860B41D00158C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F198412860B41D00158C77 /* Assets.xcassets */; };
 		50F198452860B41D00158C77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F198442860B41D00158C77 /* Preview Assets.xcassets */; };
 		50F1984F2860B41D00158C77 /* getGoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F1984E2860B41D00158C77 /* getGoProjectTests.swift */; };
@@ -49,7 +49,7 @@
 /* Begin PBXFileReference section */
 		50F1983A2860B41A00158C77 /* getGoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getGoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F1983D2860B41A00158C77 /* getGoProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getGoProjectApp.swift; sourceTree = "<group>"; };
-		50F1983F2860B41A00158C77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50F1983F2860B41A00158C77 /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
 		50F198412860B41D00158C77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50F198442860B41D00158C77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50F1984A2860B41D00158C77 /* getGoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getGoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,7 +162,7 @@
 			children = (
 				50F198682860B44000158C77 /* component */,
 				50F198802860C0FC00158C77 /* DetailView.swift */,
-				50F1983F2860B41A00158C77 /* ContentView.swift */,
+				50F1983F2860B41A00158C77 /* HomepageView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 				50F198852860C34C00158C77 /* DetailModel.swift in Sources */,
 				50F198732860B63500158C77 /* NetworkService.swift in Sources */,
 				50F198912860CAEE00158C77 /* ApiMock.swift in Sources */,
-				50F198402860B41A00158C77 /* ContentView.swift in Sources */,
+				50F198402860B41A00158C77 /* HomepageView.swift in Sources */,
 				50F1987C2860B74500158C77 /* ErrorConstant.swift in Sources */,
 				50F1987E2860B83D00158C77 /* HomeViewModel.swift in Sources */,
 				50F1983E2860B41A00158C77 /* getGoProjectApp.swift in Sources */,

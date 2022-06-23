@@ -19,7 +19,7 @@ class NetworkService {
     }
     
     func getCharacter() {
-        var urlComponent = URLComponents(string: UrlConstant.base("1").urlString)
+        var urlComponent = URLComponents(string: UrlConstant.firstPage.urlString)
         guard let _ = try? URLRequest(url: (urlComponent?.url)!) else {return}
         requestUtil.request(urlComponent: urlComponent!, model: Character.self).sink { completion in
             switch completion {
@@ -42,7 +42,6 @@ class NetworkService {
             case .finished:
                 print(completion)
             case .failure(let err):
-              
                 self.apiError.send(err)
             }
         } receiveValue: { data in

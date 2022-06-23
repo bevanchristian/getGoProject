@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomepageView: View {
     @StateObject var homeVM = HomeViewModel()
     @State var isError = false
     @State var errorMessage = ""
@@ -46,7 +46,6 @@ struct ContentView: View {
     
     func loadMore(currentData: charResult?) {
         if (self.homeVM.characterResult.last == currentData){
-            print("load more")
             homeVM.loadMore()
         }
     }
@@ -54,6 +53,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomepageView()
     }
 }
